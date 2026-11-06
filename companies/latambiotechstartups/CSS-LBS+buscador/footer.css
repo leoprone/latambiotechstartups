@@ -100,12 +100,14 @@
 .texto{
   color: #606060;
   line-height: 20px;
+  font-size: .8rem;
 }
 
 .nombre{
-  color: rgb(168, 168, 168);
+  color: #606060;
   font-size: .8rem;
 }
+
 
 .social-section {
   text-align: center;
