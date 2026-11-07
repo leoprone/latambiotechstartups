@@ -1722,7 +1722,7 @@ function imprimirResultados(resultadoFiltrado, opciones) {
 
     resultadoFiltrado.forEach(item => {
         const h3 = document.createElement("h3");
-        h3.textContent = item[fields[2]];
+        h3.textContent = item.STARTUP;
          h3.style.backgroundColor = "black";
             h3.style.borderRadius = "5px";
             h3.style.display = "inline-block";
@@ -1735,7 +1735,7 @@ function imprimirResultados(resultadoFiltrado, opciones) {
 
         const verMasBtn = document.createElement("a");
         verMasBtn.textContent = "Ir al Artículo"; 
-        verMasBtn.href = item[fields[3]];
+        verMasBtn.href = item.HRef;
         verMasBtn.style.display = "inline-block";
         verMasBtn.style.textDecoration = "none";
        
