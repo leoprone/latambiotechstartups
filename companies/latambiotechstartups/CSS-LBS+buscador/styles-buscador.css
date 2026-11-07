@@ -253,6 +253,16 @@ body.dark-mode ul li, body.dark-mode .readme, .readme{
     }
 
 
+ 
+      @keyframes Animation-bubble5{
+              0%{
+                transform: translateX(-1000%) translateY(-100%);
+            }
+            100%{
+                transform: translateX(1500%) translateY(300%);
+            }
+        }
+
       @keyframes Animation-bubble3{
               0%{
                 transform: translateX(-1000%) translateY(250%);
@@ -284,7 +294,7 @@ body.dark-mode ul li, body.dark-mode .readme, .readme{
 
 
        
-        .bubble1, .bubble2, .bubble3{
+        .bubble1, .bubble2, .bubble3, .bubble4, .bubble5, .bubble6{
           
             border-radius: 50%;
             position: absolute;
@@ -297,7 +307,7 @@ body.dark-mode ul li, body.dark-mode .readme, .readme{
     
 
 
-        .bubble1{
+        .bubble1, .bubble5{
             width: 100px;
             height: 100px;
             left: 300px; 
@@ -306,7 +316,7 @@ body.dark-mode ul li, body.dark-mode .readme, .readme{
             animation: Animation-bubble1 15s linear infinite;
         }
 
-        .bubble2{
+        .bubble2, .bubble4{
             width: 400px;
             height: 400px;
               bottom: 400px;
@@ -316,7 +326,7 @@ body.dark-mode ul li, body.dark-mode .readme, .readme{
         }
 
 
-        .bubble3{
+        .bubble3, .bubble6{
             width: 200px;
             height: 200px;
               
@@ -325,6 +335,19 @@ body.dark-mode ul li, body.dark-mode .readme, .readme{
             animation: Animation-bubble3 13s linear infinite;
         }
 
+        .bubble4{
+             animation: Animation-bubble3 19s linear infinite;
+        }
+
+        .bubble5{
+         
+             animation: Animation-bubble5 13s linear infinite;
+        }
+
+        .bubble6{
+         
+             animation: Animation-bubble2 7s linear infinite;
+        }
 
 h2{
     font-size: 1.6rem;
