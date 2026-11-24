@@ -1,0 +1,324 @@
+[
+  {
+   
+    "nombre": "Abydos Bioscience",
+    "pais": "🇦🇷 Argentina",
+    "fundacion": "2025",
+    "campo_aplicacion": "Alimentación",
+  
+    "tecnologias": [
+      "Fermentación de precisión"
+      
+      
+    ],
+        "producto_servicio": [
+        "Sustituto de alimento tradicional"
+    ],
+      
+    "descripcion": "",
+    "web": "https://www.abydosbio.com/",
+    "linkedin": "https://www.linkedin.com/company/abydos-bioscience/",
+    "articulo": "../ARTICULOS/abydos_bioscience.html"
+   
+  },
+    {
+   
+    "nombre": "Agrosintex",
+    "pais": "🇦🇷 Argentina",
+    "fundacion": "2023",
+    "campo_aplicacion": ["Ganadería", "Medio ambiente"],
+  
+    "tecnologias": [
+    "Modulación del microbioma",
+    "Encapsulación",
+    "Liberación controlada"
+  ],
+        "producto_servicio": [
+      "Aditivo alimenticio"
+      
+    ],
+    
+    "descripcion": "Agrosintex propone la elaboración de un complemento dietario capaz de reducir las emisiones de metano en ganado bovino de fácil implementación por los productores ganaderos.",   
+    "web": "https://www.agrosintex.com//",
+    "linkedin": "https://www.linkedin.com/company/agrosintex/",
+    "articulo": "../ARTICULOS/agrosintex.html"
+   
+  },
+  {
+   
+    "nombre": "Amnova Biotech",
+    "pais": "🇦🇷 Argentina",
+    "fundacion": "2025",
+    "campo_aplicacion": "Salud humana",
+  
+    "tecnologias": [
+      "Terapia acelular", "Medicina regenerativa"
+      
+      
+    ],
+        "producto_servicio": [
+      "Biomateriales"
+      
+    ],
+    
+    "descripcion": "Amnova Biotech está desarrollando una terapia post-infarto que actuaría luego de haberse producido la cicatriz fibrosa cambiando el ambiente del tejido para que deje de comportarse como una cicatriz rígida y pase a ser un tejido más activo, vascularizado y reparable. De esta manera, se podría reducir esta cicatriz y estimular el repoblado del tejido con las propias células del paciente a fin de mejorar la función cardíaca, evitando llegar a la insuficiencia cardíaca y así preservar la calidad de vida.",   
+    "web": "https://www.amnova-biotech.com",
+    "linkedin": "https://www.linkedin.com/company/amnova-biotech/",
+    "articulo": "../ARTICULOS/amnova_biotech.html"
+   
+  },
+  {
+   
+    "nombre": "ArgenTag",
+    "pais": "🇦🇷 Argentina",
+    "fundacion": "2020",
+    "campo_aplicacion": "",
+  
+    "tecnologias": [
+      "Single-cell", "Long-read sequencing"
+      
+      
+    ],
+        "producto_servicio": [
+      "", ""
+      
+    ],
+    
+    "descripcion": "Su tecnología permite secuenciar ARN mensajeros completos desde miles de células individuales, combinando precisión, escalabilidad y compatibilidad con plataformas ONT/PacBio ya disponibles en muchos labs (sin necesidad de dispositivos costosos adicionales). Los resultados llegan en cuestión de horas, no días como con los métodos de secuenciación actuales.",   
+    "web": "https://www./",
+    "linkedin": "https://www.linkedin.com/company//",
+    "articulo": "../ARTICULOS/.html"
+   
+  },
+  {
+   
+    "nombre": "BioClé",
+    "pais": "🇦🇷 Argentina",
+    "fundacion": "2025",
+    "campo_aplicacion": "Salud humana",
+  
+    "tecnologias": [
+      "Encapsulación"
+      
+      
+    ],
+        "producto_servicio": [
+      "Vehículos de entrega"
+      
+    ],
+    
+    "descripcion": "BioClé ha desarrollado una plataforma de delivery que protege y transporta las moléculas bioactivas hasta el interior de las células intestinales correctas, aumentando la eficacia y reduciendo la dosis necesaria en las formulaciones",   
+    "web": "https://www.biocle.tech/",
+    "linkedin": "https://www.linkedin.com/company/biocle/",
+    "articulo": "../ARTICULOS/biocle.html"
+   
+  },
+  {
+   
+    "nombre": "Dharma Bioscience",
+    "pais": "🇦🇷 Argentina",
+    "fundacion": "2022",
+    "campo_aplicacion": "Salud humana",
+  
+    "tecnologias": [
+      "Medicina regenerativa", "Encapsulación", "Liberación controlada", "Transcriptómica", "Terapia acelular"
+      
+      
+    ],
+        "producto_servicio": [
+      "Medicina personalizada", "Biofármacos", "Vehículos de entrega"
+      
+    ],
+    
+    "descripcion": "Para tratar la osteoartritis, Dharma Bioscience propone una solución mínimamente invasiva y de acción sitio-específica que intenta reparar el tejido cartilaginoso articular en al revertir el estado alterado de sus condrocitos, restaurando el equilibrio entre la síntesis y degradación de la MEC. Consiste en inyecciones localizadas de partículas nanolipídicas conteniendo microARN que estimularían la regeneración del tejido",   
+    "web": "https://dharmabioscience.com/",
+    "linkedin": "https://www.linkedin.com/company/dharma-bioscience/",
+    "articulo": "../ARTICULOS/dharma_bioscience.html"
+   
+  },
+  {
+   
+    "nombre": "Exomas",
+    "pais": "🇦🇷 Argentina",
+    "fundacion": "2023",
+    "campo_aplicacion": "Salud humana",
+  
+    "tecnologias": [
+      "Medicina regenerativa", "Terapia acelular", "Encapsulación"
+      
+      
+    ],
+        "producto_servicio": [
+      "Vehículos de entrega", "Terapias acelulares"
+      
+    ],
+    
+    "descripcion": "Exomas desarrolla una terapia disruptiva basada en exosomas derivados de células madre neurales (NSCs). Esta tecnología se propone, en base a las evidencias científicas obtenidas, como potencial terapia neuroprotectora y regenerativa para enfermedades neurodegenerativas como el Parkinson. El objetivo sería restaurar la neuroplasticidad perdida, y así mejorar las funciones motoras y cognitivas de los pacientes.",   
+    "web": "https://www.exomas.co/",
+    "linkedin": "https://www.linkedin.com/company/exomas/",
+    "articulo": "../ARTICULOS/exomas.html"
+   
+  },
+  {
+   
+    "nombre": "Gisens Biotech",
+    "pais": "🇦🇷 Argentina",
+    "fundacion": "2020",
+    "campo_aplicacion": "Salud humana",
+  
+    "tecnologias": [
+      "Monitoreo remoto"
+      
+      
+    ],
+        "producto_servicio": [
+      "Kits diagnósticos", "Biomarcadores"
+      
+    ],
+    
+    "descripcion": "Gisens Biotech ofrece una plataforma de monitoreo portátil con la cual medir biomarcadores clave de la salud renal del pacientes desde la comodidad de su casa a partir de muestras de saliva o sangre capilar, evitándose la necesidad de procedimientos invasivos de extracción de sangre por personal entrenado. Los resultados se obtendrían en minutos, con lo cual se agilizaría la toma de decisiones, previniendo hospitalizaciones innecesarias y eventos adversos. Dichos resultados, además, serían fácilmente integrables en la historia clínica electrónica del paciente.  Gisens Biotech desarrolla KF4+, un dispositivo compacto, inalámbrico, fácil de usar, conectado a una app. Este dispositivo utiliza un cartucho descartable conteniendo un sensor basado en una lámina de grafeno que lleva unidas moléculas de bioreconocimiento que, al unirse a la sustancia específica que reconocen en la muestra, producen cambios en las propiedades eléctricas del grafeno. Estos cambios son detectados y traducidos en datos digitales que luego son analizados para determinar la concentración de la sustancia en cuestión. Además, estos sensores están diseñados para detectar más de una sustancia a la vez en la misma muestra, permitiendo un análisis cuantitativo de biomarcadores clave en ERC como urea, sodio, potasio, cloruro y creatinina.",   
+    "web": "https://www.gisensbiotech.com/",
+    "linkedin": "https://www.linkedin.com/company/gisens-biotech/",
+    "articulo": "../ARTICULOS/gisens_biotech.html"
+   
+  },
+  {
+   
+    "nombre": "Mestem Bio",
+    "pais": "🇦🇷 Argentina",
+    "fundacion": "2023",
+    "campo_aplicacion": "Salud humana",
+  
+    "tecnologias": [
+      "Terapias celulares", "Medicina regenerativa"
+      
+      
+    ],
+        "producto_servicio": [
+      "Terapias celulares"
+      
+    ],
+    
+    "descripcion": " Mestem Bio propone prevenir el fracaso en la recuperación de lesiones óseas críticas y revertir el estado de pseudoartrosis mediante una terapia celular avanzada que combina el uso de células madre mesenquimales (MSC) cultivadas provenientes de cordón umbilical, con ácido hialurónico.",   
+    "web": "https://mestembio.com/",
+    "linkedin": "https://www.linkedin.com/company/mestembio/",
+    "articulo": "../ARTICULOS/mestem_bio.html"
+   
+  },
+  {
+   
+    "nombre": "Nat4Bio",
+    "pais": "🇦🇷 Argentina",
+    "fundacion": "2022",
+    "campo_aplicacion": "Agricultura",
+  
+    "tecnologias": [
+      "Fermentación de precisión"
+      
+      
+    ],
+        "producto_servicio": [
+      "Inoculantes microbianos", "Bioconservantes", "Biomateriales"
+      
+    ],
+    
+    "descripcion": "La tecnología desarrollada por Nat4Bio busca extender la vida útil poscosecha de frutas frescas mediante la acción conjunta de tres componentes principales: 1) Recubrimiento base (película comestible compuesta de biopolímeros naturales y excipientes de grado alimenticio que forma una capa uniforme sobre las frutas, manteniéndolas frescas por más tiempo, reduciendo la deshidratación y preservando el color, la firmeza y otros parámetros de calidad, brindando resistencia a diferentes temperaturas, además de tener una alta capacidad de formación de películas. Este recubrimiento reemplazaría a las ceras utilizadas comunmente). 2) Antimicrobianos naturales y microorganismos seleccionados con actividad antagonista, ajustados según el cultivo en cuestión: usados para enriquecer el recubrimiento base). 3) Antioxidantes",   
+    "web": "https://www.nat4bio.com/",
+    "linkedin": "https://www.linkedin.com/company/nat4bio/",
+    "articulo": "../ARTICULOS/nat4bio.html"
+   
+  },
+  {
+   
+    "nombre": "Oncoliq",
+    "pais": "🇦🇷 Argentina",
+    "fundacion": "2022",
+    "campo_aplicacion": "Salud humana",
+  
+    "tecnologias": [
+      "Transcriptómica", "Bioinformática", "IA aplicada a biología"
+      
+      
+    ],
+        "producto_servicio": [
+      "Diagnósticos moleculares", "Medicina personalizada", "Biomarcadores", "Plataformas bioinformáticas"
+      
+    ],
+    
+    "descripcion": "",   
+    "web": "https://www.oncoliq.bio/",
+    "linkedin": "https://www.linkedin.com/company/oncoliq/",
+    "articulo": "../ARTICULOS/oncoliq.html"
+   
+  },
+  {
+   
+    "nombre": "Resistia",
+    "pais": "🇦🇷 Argentina",
+    "fundacion": "2025",
+    "campo_aplicacion": ["Salud humana"],
+  
+    "tecnologias": [
+      "Fermentación de precisión", ""
+      
+      
+    ],
+        "producto_servicio": [
+      "Biofármacos"
+      
+    ],
+    
+    "descripcion": "En Resistia hacen uso de moléculas específicas producidas por bacterias beneficiosas presentes en la microbiota sana que han logrado competir con patógenos gracias a milenios de coevolución. Estas moléculas logran alterar la estructura del biofilm, desestabilizándolo, y dejando a las bacterias expuestas en estado similar al planctónico. Estas bacterias desprotegidas son sometidas a la acción conjunta de biopolímeros membranolíticos y antibióticos tradicionales para aumentar la eficacia de estos últimos y curar la infección",   
+    "web": "https://resistia.bio/",
+    "linkedin": "https://www.linkedin.com/company/resistia/",
+    "articulo": "../ARTICULOS/resistia.html"
+   
+  },
+  {
+   
+    "nombre": "SphereBio",
+    "pais": "🇦🇷 Argentina",
+    "fundacion": "2022",
+    "campo_aplicacion": ["Salud humana"],
+  
+    "tecnologias": [
+      "IA aplicada a biología", "Encapsulación", "Ingeniería de proteínas", "Cultivo celular"
+      
+      
+    ],
+        "producto_servicio": [
+      "Medicina personalizada", "vacunas", "Vehículos de entrega", "Terapias acelulares"
+      
+    ],
+    
+    "descripcion": "SphereBio desarrolla Oncospheres, una vacuna personalizada contra glioblastoma, el tumor cerebral más agresivo y letal, con una supervivencia media de apenas 12-15 meses y cuyas terapias convencionales como cirugía, radioterapia y temozolomida fallan porque el tumor evade sistemáticamente el sistema inmune y recurre rápidamente.  Dado que esta vacuna partiría de una biopsia tumoral del paciente para entrenar su sistema inmune, sería más segura, y al estar optimizada para no ser destruída dentro de las células presentadoras de antígeno, requeriría menores dosis que otros tipos de vacunas anti-tumorales, reduciendo sus posibles efectos adversos.",   
+    "web": "https://www.xspheres.com/",
+    "linkedin": "https://www.linkedin.com/company/spherebio/",
+    "articulo": "../ARTICULOS/spherebio.html"
+   
+  },
+  {
+   
+    "nombre": "Trebe Biotech",
+    "pais": "🇦🇷 Argentina",
+    "fundacion": "2020",
+    "campo_aplicacion": ["Salud humana", "Salud animal"],
+  
+    "tecnologias": [
+      "Ingeniería de proteínas", "Ingeniería genética", "Producción recombinante", "Crecimiento de organismos"
+      
+      
+    ],
+        "producto_servicio": [
+      "Vacunas", "Kits diagnósticos", "Proteínas recombinantes"
+      
+    ],
+    
+    "descripcion": "",   
+    "web": "https://trebebiotech.com/",
+    "linkedin": "https://www.linkedin.com/company/trebe_biotech/",
+    "articulo": "../ARTICULOS/trebe_biotech.html"
+   
+  }
+    
+]

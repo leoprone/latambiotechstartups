@@ -1,0 +1,299 @@
+:root {
+    --btn-celeste-color: #91ffef;
+}
+
+
+
+.filters {
+  display: flex;
+/*   flex-wrap: wrap;
+  gap: 16px; */
+
+  width: 100%;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 32px;
+
+}
+
+.filter-group-container{
+  border: 1px solid gray;
+  backdrop-filter: blur(20px);
+}
+
+.filter-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.filter-group>*{
+  color: white;
+}
+
+body.dark-mode .filter-group>*{
+  color: black;
+}
+
+
+
+
+.filter-group label, body.dark-mode .filter-group label{
+    color: white;
+    font-size: 1rem;
+}
+
+.filter-group select, body.dark-mode .filter-group select, .filter-group #nombreStartup, body.dark-mode .filter-group #nombreStartup{
+    color: black;
+}
+
+
+
+.subtitle, body.dark-mode .subtitle{
+        color: white;
+    
+}
+
+select, #nombreStartup {
+  padding: 8px;
+  min-width: 220px;
+  margin-bottom: 10px;
+  
+}
+
+
+
+#btnFiltrar, #btnRestablecer {
+  font-size: 1rem;
+  padding: 10px 18px;
+  cursor: pointer;
+  color: white;
+
+ box-shadow: inset 0 0 .5rem rgb(17, 16, 16);
+ transition: .2s linear;
+}
+
+
+#btnFiltrar {
+  padding: 10px 18px;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(74, 74, 74);
+  background-color: green;
+
+ transition: .2s linear;
+}
+
+
+#btnRestablecer {
+  padding: 10px 18px;
+  cursor: pointer;
+  color: white;
+ 
+  background-color: rgb(255, 0, 0);
+
+ transition: .2s linear;
+}
+
+#btnFiltrar:hover, #btnRestablecer:hover {
+  transition: .15s linear;
+  padding: 10px 18px;
+  cursor: pointer;
+  color: white;
+  background-color: rgb(74, 74, 74);
+  box-shadow: inset 0 0 1rem white;
+  
+}
+
+
+
+.numero-resultados{
+  display: flex;
+  justify-content: center;
+  margin: 0px auto;
+  color: white;
+  width: 180px;
+  padding: 20px;
+  border: 1px solid gray;
+  border-radius: 10px;
+}
+
+
+.numero-resultados>*{
+
+  margin: 0px 5px;
+ 
+}
+
+
+#skillsContainer {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  
+}
+
+.skill-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+}
+
+.skill-name {
+  font-weight: bold;
+   color: black;
+}
+
+.skill-count {
+  color: #666;
+}
+
+
+body.dark-mode .skill-row {
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  border: 1px solid rgb(79, 79, 79);
+  background-color: transparent;
+  border-radius: 6px;
+}
+
+body.dark-mode .skill-name {
+  font-weight: bold;
+ 
+  color: white;
+}
+
+body.dark-mode .skill-count {
+  color: white;
+}
+
+
+#resultados{
+  background-color: transparent;
+
+}
+
+.startup-container{
+  width: 96%;
+  border-radius: 20px;
+  border: 1px solid gray;
+ background-color: transparent;
+  margin: 30px auto;
+  padding: 20px;
+  backdrop-filter: blur(30px);
+}
+
+
+
+body.dark-mode .startup-container{
+  width: 96%;
+  border-radius: 20px;
+  border: 1px solid gray;
+ background-color: rgb(223, 223, 223);
+  margin: 30px auto;
+  padding: 20px;
+}
+
+
+.p-startups{
+
+  margin: 3px 0;
+  font-size: .8rem;
+}
+
+
+body.dark-mode .p-startups{
+  background-color: transparent;
+  margin: 3px 0;
+  font-size: .8rem;
+    border-radius: 20px;
+  
+}
+
+
+.p-startups > span:nth-child(2) {
+ color: white;
+ margin: 2px 10px;
+  display: inline-block;
+}
+
+
+
+
+body.dark-mode .p-startups > span:nth-child(2) {
+    color: black;
+
+}
+
+h1{
+  margin-top: -100px;
+}
+
+.span-startups{
+  font-style: italic;
+   color: rgb(179, 179, 179);
+border-bottom: 1px solid var(--btn-celeste-color);
+ margin: 0px;
+  display: inline-block;
+ 
+}
+
+body.dark-mode .span-startups{
+  color: black;
+border-bottom: 1px solid gray;
+}
+
+.enlace{
+   background-color: rgb(72, 72, 72);
+
+ /*  border: solid 1px gray; */
+  border-radius: 10px;
+  color: white;
+  transition: .2s linear;
+  text-decoration: none;
+  margin-left: 20px;
+  padding: 5px 7px;
+}
+
+
+.enlace:hover{
+  transition: .2s linear;
+  color: black;
+  background-color: var(--btn-celeste-color);
+}
+
+
+
+@media screen and (min-width: 760px){
+
+
+  h1{
+    margin-top: 100px;
+  }
+
+  #resultados, body.dark-mode #resultados{
+    max-width: 60%;
+    margin: 0 auto;
+  }
+
+
+    .p-startups{
+
+      margin: 7px 0;
+      font-size: 1rem;
+    }
+
+
+    body.dark-mode .p-startups{
+      background-color: transparent;
+      margin: 7px 0;
+      font-size: 1rem;
+        border-radius: 20px;
+      
+    }
+
+}

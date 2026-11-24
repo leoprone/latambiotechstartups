@@ -1,0 +1,445 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#111320"> 
+    <title>Mapa de Startups</title>
+    <meta name="description"
+        content="Mapa de startups biotech de LatAm">
+
+
+ <!--  Para que no se indexe la página -->
+    <meta name="robots" content="noindex, follow">
+
+    <!-- Para compartir la página -->
+     
+  <!-- Open Graph (LinkedIn) -->
+  <meta property="og:type" content="article">
+  <meta property="og:title" content="Skills">
+  <meta property="og:description"
+        content="Mapa de startups biotech de LatAm">
+
+  <meta property="og:url"
+        content="https://leoprone.github.io/LBS-prueba/SKILLS/skills.html">
+
+  <meta property="og:image"
+        content="https://leoprone.github.io/LBS-prueba/companies/latambiotechstartups/lbs.png">
+       
+<!--   <meta property="og:image:width" content="816">
+  <meta property="og:image:height" content="445"> -->
+
+ <link rel="stylesheet" href="../ARTICULOS/CSS-LBS+buscador/styles-buscador.css">   
+ <link rel="stylesheet" href="../ARTICULOS/CSS-LBS+buscador/styles-nuevo.css">
+ <link rel="stylesheet" href="../ARTICULOS/CSS-LBS+buscador/header.css">
+ <link rel="stylesheet" href="../ARTICULOS/CSS-LBS+buscador/footer.css"> 
+ <link rel="stylesheet" href="MAPA-CSS/mapa.css">
+
+<style>
+    .share-btn{
+    display:flex;
+    align-items:center;
+    gap:8px;
+    padding:10px 16px;
+    cursor:pointer;
+    color: white;
+    background-color: transparent;
+    border: solid 1px gray;
+    border-radius: 10px;
+    margin-bottom: 50px;
+    transition: .3s linear;
+}
+
+.share-btn:hover{
+    background-color: rgb(66, 66, 66);
+    transition: .3s linear;
+   
+}
+.share-btn img{
+    width:20px;
+    height:20px;
+}
+
+
+</style>
+
+</head>
+
+
+<body id="top">
+ <header class="header">
+        <section class="container">       
+          
+          
+          <button class="menu-btn">
+           <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <path d="M4 6H20V8H4zM4 11H20V13H4zM4 16H20V18H4z" />
+            </svg>
+             <svg class="none" xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24">
+              <path
+                d="M16.192 6.344L11.949 10.586 7.707 6.344 6.293 7.758 10.535 12 6.293 16.242 7.707 17.656 11.949 13.414 16.192 17.656 17.606 16.242 13.364 12 17.606 7.758z" />
+            </svg>
+          </button>
+          <nav class="menu">
+           <!--  <a href="../index.html#inicio" style="margin: 0 20px;">LATAM Bioexplorador</a> -->
+             <a href="../ARTICULOS/buscador_dinamico.html" style="margin: 0 20px;">LATAM BIOTECH STARTUPS <i>Series</i> </a>
+          
+            <!-- <a href="../../SKILLS/skills.html">Skills</a> -->
+         
+          
+           <a href="https://www.linkedin.com/in/leonardo-prone/" style="margin: 0 20px;" target="_blank">Contacto</a>
+
+            <br>
+            <br>
+
+          </nav>
+        </section>
+          
+        <div class="dark-mode-toggle modern" id="dark-mode-toggle">
+              <span class="icon"></span>
+        </div>
+      </header>   
+
+
+<main>
+
+
+    <section class="hero">
+      <div class="bubble1"></div>
+      <div class="bubble2"></div>
+      <div class="bubble3"></div>
+      <div class="bubble4"></div>
+      <div class="bubble5"></div>
+      <div class="bubble6"></div>
+    </section>  
+
+    <h1>
+      
+      <div style="text-shadow: 0 0 4rem rgb(0, 0, 0);">
+          <span class="latam">LATAM</span>
+          <!--  <span style="text-shadow: 0 0 4.5rem black;" class="biotech" style="display: inline-block; margin-right: -15px; font-size: 3.73rem; animation: Animation-Bio 1s ease-in infinite; text-shadow: 0 0 2rem rgb(235, 232, 232);">B</span>
+          <span style="text-shadow: 0 0 4.5rem black;" class="biotech" style="display: inline-block; margin-right: -15px;  font-size: 3.73rem; animation: Animation-Bio 1.2s linear infinite reverse; text-shadow: 0 0 2rem rgb(235, 232, 232);">I</span>
+          <span style="text-shadow: 0 0 4.5rem black;" class="biotech" style="display: inline-block; margin-right: -17px; font-size: 3.73rem; animation: Animation-Bio .8s linear infinite; text-shadow: 0 0 2rem rgb(235, 232, 232);">O</span>
+          --> 
+          <span class="biotech">BIOTECH</span> 
+          <span class="startups">STARTUPS</span> 
+          <span class="platform-section">Map</span> 
+      </div>
+          
+          
+    </h1>
+    <p class="subtitle" style="text-align: center; margin: 0px 0 100px 0; font-style: italic;">
+        Explora las startups de LATAM
+    </p>
+
+
+
+
+
+
+<section class="filters">
+ <div class="filter-group-container">
+
+  <div class="filter-group">
+    
+      <label for="nombreStartup">Nombre de startup</label>
+      <input type="search" id="nombreStartup" name="nombreStartup" placeholder="Ingresa el nombre" maxlength="30">
+         
+  </div>
+
+
+  <div class="filter-group">
+    <label for="pais">País</label>
+    <select id="pais">
+      <option value="">Todos</option>
+      <option value="Argentina">Argentina</option>
+      <option value="Brasil">Brasil</option>
+      <option value="Chile">Chile</option>
+      <option value="México">México</option>
+    </select>
+  </div>
+ 
+   <div class="filter-group">
+    <label for="fundacion">Año de fundación:</label>
+    <select id="fundacion" name="fundacion">
+      <option value="">Todos</option>
+    </select>
+  </div>
+
+
+
+
+  <div class="filter-group">
+    <label for="campoAplicacion">Campo de aplicación</label>
+    <select id="campoAplicacion">
+       <option value="">Todas</option>
+       <option value="Salud humana">Salud humana</option>
+       <option value="Salud animal">Salud animal</option>
+       <option value="Agricultura">Agricultura</option>
+       <option value="Ganadería">Ganadería</option>
+       <option value="Acuicultura">Acuicultura</option>
+       <option value="Alimentación">Alimentación</option>
+       <option value="Medio ambiente">Medio ambiente</option>
+       <option value="Industria">Industria</option>
+       <option value="Energía">Energía</option>
+       <option value="Minería">Minería</option>
+       <option value="Cosmética">Cosmética</option>
+    </select>
+  </div>
+
+
+
+
+    <div class="filter-group">
+      <label for="tecnologias">Tecnologías</label>
+      <select id="tecnologias" name="tecnologia">
+          <option value="">Todas</option>
+
+          <optgroup label="Ingeniería biológica">
+              <option value="Ingeniería genética">Ingeniería genética</option>
+              <option value="Edición genética">Edición genética</option>
+              <option value="Biología sintética">Biología sintética</option>
+              <option value="Ingeniería metabólica">Ingeniería metabólica</option>
+              <option value="Ingeniería de proteínas">Ingeniería de proteínas</option>
+              <option value="Evolución dirigida">Evolución dirigida</option>
+          </optgroup>
+
+          <optgroup label="Producción biotecnológica">
+              <option value="Fermentación de precisión">Fermentación de precisión</option>
+              <option value="Fermentación industrial">Fermentación industrial</option>
+              <option value="Cultivo celular">Cultivo celular</option>
+              <option value="Cultivo de tejidos">Cultivo de tejidos</option>
+              <option value="Crecimiento de organismos">Crecimiento de organismos</option>
+              <option value="Bioprocesos">Bioprocesos</option>
+              <option value="Producción recombinante">Producción recombinante</option>
+          </optgroup>
+
+          <optgroup label="Análisis biológico">
+              <option value="Secuenciación de nueva generación (NGS)">Secuenciación de nueva generación (NGS)</option>
+              <option value="Genómica">Genómica</option>
+              <option value="Transcriptómica">Transcriptómica</option>
+              <option value="Proteómica">Proteómica</option>
+              <option value="Metabolómica">Metabolómica</option>
+              <option value="Metagenómica">Metagenómica</option>
+              <option value="Single-cell">Single-cell</option>
+              <option value="Long-read sequencing">Long-read sequencing</option>
+          </optgroup>
+
+         <optgroup label="Sensado biológico">
+              <option value="Monitoreo remoto">Monitoreo remoto</option>
+         </optgroup>
+
+           <optgroup label="Nutrición y microbiología animal">
+              <option value="Microbioma">Microbioma</option>
+              <option value="Modulación del microbioma">Modulación del microbioma</option>
+              <option value="Nutrición animal de precisión">Nutrición animal de precisión</option>
+              <option value="Reducción de metano entérico">Reducción de metano entérico</option>
+          </optgroup>    
+
+
+          <optgroup label="Formulación y delivery">
+              <option value="Encapsulación">Encapsulación</option>
+              <option value="Liberación controlada">Liberación controlada</option>
+          </optgroup> 
+
+
+          <optgroup label="Plataformas biológicas">
+              <option value="Terapias celulares">Terapias celulares</option>
+              <option value="Terapias acelulares">Terapias acelulares</option>
+              <option value="Terapias génicas">Terapias génicas</option>
+              <option value="Medicina regenerativa">Medicina regenerativa</option>
+          </optgroup>          
+          
+          <optgroup label="Computación aplicada a biología">
+              <option value="Bioinformática">Bioinformática</option>
+              <option value="Biología computacional">Biología computacional</option>
+              <option value="Modelado biológico in silico">Modelado biológico in silico</option>
+              <option value="IA aplicada a biología">IA aplicada a biología</option>
+              <option value="Descubrimiento computacional de fármacos">Descubrimiento computacional de fármacos</option>
+          </optgroup>
+      </select>
+  </div>
+
+
+
+  <div class="filter-group">
+    <label for="productoServicio">Productos y servicios</label>
+    <select id="productoServicio" name="productoServicio">
+        <option value="">Todos</option>
+
+        <optgroup label="Salud">
+            <option value="Diagnósticos moleculares">Diagnósticos moleculares</option>
+            <option value="Diagnósticos clínicos">Diagnósticos clínicos</option>
+            <option value="Kits diagnósticos">Kits diagnósticos</option>
+            <option value="Terapias celulares">Terapias celulares</option>
+            <option value="Terapias acelulares">Terapias acelulares</option>
+            <option value="Terapias génicas">Terapias génicas</option>
+            <option value="Biofármacos">Biofármacos</option>
+             <option value="Vehículos de entrega">Vehículos de entrega</option>
+            <option value="Vacunas">Vacunas</option>
+            <option value="Proteínas recombinantes">Proteínas recombinantes</option>
+            <option value="Biomarcadores">Biomarcadores</option>
+            <option value="Medicina personalizada">Medicina personalizada</option>
+        </optgroup>
+
+        <optgroup label="Agro">
+            <option value="Biofertilizantes">Biofertilizantes</option>
+            <option value="Biopesticidas">Biopesticidas</option>
+            <option value="Bioconservantes">Bioconservantes</option>
+            <option value="Bioestimulantes">Bioestimulantes</option>
+            <option value="Inoculantes microbianos">Inoculantes microbianos</option>
+            <option value="Mejoramiento genético vegetal">Mejoramiento genético vegetal</option>
+            <option value="Mejoramiento genético animal">Mejoramiento genético animal</option>
+        </optgroup>
+
+        <optgroup label="Alimentación">
+            <option value="Proteínas alternativas">Proteínas alternativas</option>
+            <option value="Ingredientes funcionales">Ingredientes funcionales</option>
+            <option value="Ingredientes obtenidos por fermentación">Ingredientes obtenidos por fermentación</option>
+            <option value="Probióticos">Probióticos</option>
+            <option value="Cultivo celular para alimentos">Cultivo celular para alimentos</option>
+            <option value="Aditivo alimenticio">Aditivo alimenticio</option>
+             <option value="Sustituto de alimento tradicional">Sustituto de alimento tradicional</option>
+            
+        </optgroup>
+
+        <optgroup label="Industria y ambiente">
+            <option value="Biomateriales">Biomateriales</option>
+            <option value="Bioplásticos">Bioplásticos</option>
+            <option value="Biocombustibles">Biocombustibles</option>
+            <option value="Biorremediación">Biorremediación</option>
+            <option value="Captura biológica de carbono">Captura biológica de carbono</option>
+            <option value="Tratamiento biológico de efluentes">Tratamiento biológico de efluentes</option>
+        </optgroup>
+
+        <optgroup label="Software y servicios">
+            <option value="Plataformas bioinformáticas">Plataformas bioinformáticas</option>
+            <option value="Análisis ómicos">Análisis ómicos</option>
+            <option value="Servicios de secuenciación">Servicios de secuenciación</option>
+            <option value="Servicios CRO">Servicios CRO</option>
+            <option value="Desarrollo biotecnológico por contrato">Desarrollo biotecnológico por contrato</option>
+            <option value="Desarrollo de cepas microbianas">Desarrollo de cepas microbianas</option>
+            <option value="Desarrollo de procesos biotecnológicos">Desarrollo de procesos biotecnológicos</option>
+        </optgroup>
+    </select>
+  </div>
+
+ <div style="display: flex; justify-content: center; margin: 0 auto;">
+  <button id="btnFiltrar">
+    Buscar
+  </button>
+  
+  <button id="btnRestablecer">
+    Restablecer
+  </button>
+  </div>
+  </div>
+</section>
+
+
+<div class="numero-resultados">
+  <span id="cantidad"></span>
+  <span id="texto-resultados">Resultados</span>
+</div>
+
+<section id="resultados" aria-live="polite"></section>
+
+ 
+<!-- <section id="results">
+ 
+  <h2>Skills más frecuentes</h2>
+ 
+  <div id="skillsContainer">
+    
+  </div>
+
+</section> -->
+
+ </main>
+
+ <!-- -------------------------------   FOOTER   --------------------- -->
+
+
+  <footer class="footer">
+      <div class="footer-container">
+        <div class="footer-content">
+          <button 
+         
+            class="back-to-top"
+            aria-label="Back to top">
+           <a href="#top">
+            <img src="../../../assets/arrow.svg" loading="lazy" alt="Arrow Icon" style="color: gray;">
+           </a>
+          </button>       
+         <!--  <button 
+            onClick={scrollToTop}
+            class="back-to-top"
+            aria-label="Back to top">
+           <a href="#editor">
+             <img src="../assets/arrow.svg" loading="lazy" alt="Arrow Icon" style="color: gray;">
+              <div class="flecha">=></div>  
+           </a>
+          </button>
+ -->
+
+
+       <button id="shareLinkedinBtn" class="share-btn">
+         Compartir
+            <img src="../../../assets/linkedin.png" alt="LinkedIn">
+            
+        </button>
+
+
+          <div class="social-section">
+           <!--  <p class="social-title">Social media</p> -->
+            <div class="social-links">
+                <div class="desarrollo">
+                        <div class="texto">Desarrollado por</div>
+                        <div class="contenedor-nombre-linkedin">
+                             <div class="nombre">Leonardo Prone</div>
+                        </div>
+                       
+                </div>
+                <div class="button-social" >
+                   
+                    <a class="facebook-class social-link" href="https://www.linkedin.com/in/leonardo-prone/" target="_blank">
+                       </a>
+                </div>
+               
+                  
+              
+            </div>
+          </div>
+
+          
+           
+        </div>
+      </div>
+      
+      <div style="height: 30px; background-color: black;"></div>
+     
+    </footer>
+    
+
+
+
+     <!-- <script src="../../../JS/header.js"></script>  -->
+     <script src="../../../JS/index.js"></script> 
+    <script src="MAPA-JS/mapa.js"></script>
+
+     <script>
+        document.getElementById("shareLinkedinBtn").addEventListener("click", () => {
+
+        const articleUrl = encodeURIComponent(window.location.href);
+
+        const linkedinUrl =
+            `https://www.linkedin.com/sharing/share-offsite/?url=${articleUrl}`;
+
+        window.open(linkedinUrl, "_blank");
+    });
+    </script>
+   
+</body>
+</html>
